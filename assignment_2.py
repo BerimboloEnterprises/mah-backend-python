@@ -27,7 +27,6 @@ def foo_bar(x):
 
 print(foo_bar(15))
 
-# TO DO fixa NONE på slutet
 
 # Uppgift 3 Lists
 
@@ -126,4 +125,3 @@ print_person(person)
 # Uppgift 7 Adding to a Dictionary
 
 def create_person():
-    
