@@ -121,7 +121,23 @@ def print_person(person_to_print):
 print_person(person)
 
 
-
 # Uppgift 7 Adding to a Dictionary
 
-def create_person():
+def create_person(first_name, last_name, age, top_3_movies):
+    # The function takes in variables for name, age and movies
+    # and then assigns the value to their corresponding key
+    # and finally returns a created person
+
+    created_person = {}
+    created_person["first_name"] = first_name
+    created_person["last_name"] = last_name
+    created_person["age"] = age
+    created_person["top_3_movies"] = top_3_movies
+
+    return created_person
+
+sherlock = create_person("Sherlock", "Holmes", 35, ["Seven", "Gone Girl", "The Prestige"])
+
+print_person(sherlock)
+
+
